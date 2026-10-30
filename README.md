@@ -2,6 +2,19 @@
 
 Independent Laravel 13 app for moderated seller onboarding, a multi-seller catalog, session cart, and transactional split-order checkout.
 
+---
+
+## Screenshots
+
+| Tampilan | Preview |
+|---|---|
+| **Katalog Multi-Vendor & Etalase Marketplace**<br>Pencarian produk, filter kategori, kartu produk multi-penjual dengan harga minor unit, stok, formulir keranjang, dan pengajuan akun penjual | ![Katalog Multi-Vendor & Etalase Marketplace](docs/screenshots/01-marketplace-catalog.png) |
+| **Dashboard Penjual & Manajemen Produk**<br>Ringkasan total penjualan kotor, komisi platform, formulir pengajuan produk baru untuk moderasi, dan status verifikasi inventaris penjual | ![Dashboard Penjual & Manajemen Produk](docs/screenshots/02-seller-dashboard.png) |
+| **Riwayat Pesanan & Pemisahan Sub-Order Penjual**<br>Detail transaksi checkout pelanggan dengan pemecahan otomatis sub-order per penjual, kalkulasi komisi 10%, dan daftar rincian item | ![Riwayat Pesanan & Pemisahan Sub-Order Penjual](docs/screenshots/03-order-history-breakdown.png) |
+| **Panel Moderasi & Administrasi Marketplace**<br>Pusat verifikasi admin untuk menyetujui atau menolak pendaftaran penjual baru dan kurasi produk sebelum tampil ke publik | ![Panel Moderasi & Administrasi Marketplace](docs/screenshots/04-admin-moderation.png) |
+
+---
+
 ## Stack / setup
 
 - PHP 8.3+, Composer, Node.js/npm, SQLite (PostgreSQL supported with matching PDO driver)
