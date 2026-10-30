@@ -50,12 +50,3 @@ npm audit --omit=dev
 No payment provider, settlement, shipping, tax, inventory adjustment UI, image upload, refunds/disputes workflow, or notifications are implemented. Database row locking requires a transactional production DB; SQLite tests do not establish concurrent oversell safety. Configure HTTPS, mail delivery, backups, session/security headers, and approved tax/payment policies before deployment. No `.env`, personal data, `vendor`, `node_modules`, or build output belongs in Git.
 
 MIT license.
-
-
-## Screenshots
-
-### Dashboard Overview
-![Dashboard](docs/screenshots/01_dashboard.png)
-
-### Login Overview
-![Login](docs/screenshots/02_login.png)
